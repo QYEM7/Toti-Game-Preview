@@ -3,3 +3,5 @@ button[data-stake]{color:#fff;font:bold 2.7cqw Arial;background:linear-gradient(
 .betpill{fill:#073b24;stroke:#ffe2a0;stroke-width:2}.foodbet{fill:#fff;font:bold 24px Arial;stroke:none}.sector.chosen{fill:#ffcc42;fill-opacity:.17;stroke:#ffe5a0;stroke-opacity:.95;stroke-width:4;filter:drop-shadow(0 0 3px #ffcf45)}.sector.spin{fill-opacity:.27;stroke:#fff0ae;stroke-width:5;filter:drop-shadow(0 0 5px gold)}
 /* Reference wager badge */
 #gameLayer svg .betpill{fill:#124c30;fill-opacity:1;stroke:#e9ce83;stroke-opacity:1;stroke-width:2.2;filter:none}#gameLayer svg .foodbet{fill:#fff;font:bold 23px Arial;stroke:none;paint-order:normal;filter:none;text-anchor:middle}
+/* Constant selection intensity independent of wager size */
+#gameLayer .sector.chosen{fill:#ffd34d;fill-opacity:.10;stroke:#ffe5a0;stroke-opacity:.85;stroke-width:3;filter:none;transition:none}#gameLayer .sector.spin{fill-opacity:.20;stroke-opacity:1;stroke-width:4;filter:none}#gameLayer .sector.chosen.spin{fill-opacity:.20;stroke-opacity:1;stroke-width:4}
